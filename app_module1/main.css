@@ -1,0 +1,38 @@
+/* body {
+    background-color: red;
+} */
+ */*общий селектор, все что в нем написано применяется ко всему сайту */ {  
+    padding: 0; /*внутренний отступ */
+    margin: 0; /*внешний отступ */
+    box-sizing: border-box; /*модель отображения отступов */
+}
+
+div {
+    width: 70%; /* ширина*/
+    margin: auto;/* auto - позволяет оцентровать отступы */
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2); /*добавление тени */
+    padding: 50px;
+}
+
+img {
+    max-width: 1300px; /* максимальная ширина */
+    height: auto; /* высота, auto - автоматическое подстраивание */
+    width: 100%;
+    display: block; /* режим отображения элемента */
+    margin: auto;
+}
+
+p {
+    font-size: 22px; /* размер шрифта */
+    font-family: Helvetica; /*семейство шрифтов  */
+    line-height: 1.65; /* высота строки */
+    text-align:justify; /* выравнивание текста */
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Helvetica;
+    text-align: center;
+    padding-bottom: 40px; /* внутренний отступ снизу */
+
+}
